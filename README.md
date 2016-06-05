@@ -15,6 +15,11 @@ Try it out! Send a text to:
   $ node app.js
   ```
 
+## Deploying
+
+1. `heroku config:add TWILIO_TOKEN=MY_TWILIO_TOKEN`
+2. `git push heroku master`
+
 ## License
 
 ISC © [Raine Revere](https://raine.tech)
