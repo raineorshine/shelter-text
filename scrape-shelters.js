@@ -3,6 +3,8 @@ const fetch = require('node-fetch')
 
 module.exports = function scrapeShelters() {
 
+  // Search Form
+  // https://211colorado.communityos.org/cms/node/142
   const url = 'https://211colorado.communityos.org/z_eda/publicshelterassist.taf?function=list&_UserReference=AC1E0201471A4A081A64B7E72B774E3ADF7F'
 
   const columns = [
